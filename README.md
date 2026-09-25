@@ -95,6 +95,7 @@ Converts user speech to text. In a cascading pipeline, ASR is the first bottlene
 ### Cloud Providers
 
 - [Deepgram](https://deepgram.com/) - Streaming-first ASR with Nova-3 models. Sub-300ms latency, strong accuracy, and WebSocket API. From $0.0058/min.
+- [Gradium](https://gradium.ai/) - Streaming speech-to-text API with semantic turn detection.
 - [AssemblyAI](https://www.assemblyai.com/) - High-accuracy ASR with Universal-2 model, real-time streaming, and built-in speaker diarization.
 - [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text) - Chirp 2 model with 100+ language support and streaming recognition. $0.016/min.
 - [Azure Speech Service](https://azure.microsoft.com/en-us/products/ai-services/speech-to-text) - Fast Speech recognition with custom model training and real-time streaming. $1/hour.
@@ -177,6 +178,7 @@ Converts LLM output to spoken audio. In production, the critical metric is **tim
 ### Cloud Providers
 
 - [Cartesia Sonic](https://cartesia.ai/) - Purpose-built for real-time voice AI. Sonic Turbo: 40ms TTFA. 42 languages. Emotion and laughter tags. The latency benchmark.
+- [Gradium](https://gradium.ai/) - Streaming text-to-speech API for voice applications.
 - [ElevenLabs](https://elevenlabs.io/) - Highest naturalness ratings. Excellent voice cloning. Turbo v2.5 model for low-latency streaming. 32 languages.
 - [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech) - Simple API with 6 preset voices. Good quality, easy integration. No streaming in standard API.
 - [Play.ht](https://play.ht/) - Real-time streaming TTS with voice cloning. Play3.0 model with emotion control. Good multilingual support.
